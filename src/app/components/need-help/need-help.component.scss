@@ -1,0 +1,46 @@
+.need-help-container {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0 16px;
+
+  .need-help-leading {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .need-help-content {
+    margin: 0 16px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .need-help-trailing {
+    display: flex;
+    align-items: center;
+    margin-right: -12px;
+
+    img {
+      width: 32px;
+      height: 32px;
+
+      padding: 0 1px;
+      padding-top: 2px;
+      border: 1.5px solid #66BFFF;
+      border-radius: 50%;
+
+      &:nth-child(1n+2) {
+        margin-left: -10px;
+      }
+    }
+
+
+  }
+}
